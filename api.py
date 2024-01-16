@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route('/predict', methods=['POST'])
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<p>Añadir modelo</p>"
